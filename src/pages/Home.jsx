@@ -4,6 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
 import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <>
