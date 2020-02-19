@@ -2,7 +2,7 @@ import React from "react";
 import RoomListItem from "../components/RoomListItem";
 
 export default function RoomsList({ rooms }) {
-  if (rooms.lenght === 0) {
+  if (rooms.length === 0) {
     return (
       <div className="empty-search">
         <h3>unfortunately no rooms matched with your filters</h3>
